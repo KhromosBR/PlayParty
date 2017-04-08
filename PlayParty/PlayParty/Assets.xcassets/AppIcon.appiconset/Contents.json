@@ -1,25 +1,27 @@
 {
   "images" : [
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "Play Party 40x40.png",
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "20x20",
+      "idiom" : "iphone",
+      "filename" : "Play Party 60x60.png",
       "scale" : "3x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "LogoPlayParty-4.png",
+      "filename" : "Play Party 58x58.png",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "LogoPlayParty-5.png",
+      "filename" : "Play Party 87x87.png",
       "scale" : "3x"
     },
     {
@@ -31,19 +33,19 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "LogoPlayParty-1.png",
+      "filename" : "Play Party 120x120-1.png",
       "scale" : "3x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "LogoPlayParty-2.png",
+      "filename" : "Play Party 120x120.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "LogoPlayParty-3.png",
+      "filename" : "Play Party 180x180.png",
       "scale" : "3x"
     }
   ],
