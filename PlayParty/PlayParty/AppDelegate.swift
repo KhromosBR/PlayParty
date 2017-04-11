@@ -32,8 +32,27 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
     }
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
-        print(123)
+        if let err = error{
+            print("Failed to log into Google", err)
+            return
+        }
+        
+        print("Successfully logged in google", user)
+        
+        guard let idToken = user.authentication.idToken else {return}
+        guard let accessToken = user.authentication.accessToken else {return}
+        let credentials = FIRGoogleAuthProvider.credential(withIDToken: idToken, accessToken: accessToken)
+        
+        FIRAuth.auth()?.signIn(with: credentials, completion: { (user, error) in
+            if let err = error {
+                print("Failed to create a Firebase user with Google Account", err)
+                return
+            }
+            guard let uid = user?.uid else {return}
+            print("Successfully logged into Firebase with Google", uid)
+        })
     }
+    
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
         let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[.sourceApplication] as! String!, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
