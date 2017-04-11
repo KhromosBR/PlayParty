@@ -26,14 +26,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundPlayParty1.0" translatesAutoresizingMaskIntoConstraints="NO" id="6Bj-MY-LBf">
                                 <rect key="frame" x="-3" y="0.0" width="378" height="667"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Play Party Round" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-wd-OQ2">
-                                <rect key="frame" x="131" y="109" width="112" height="112"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="112" id="Cdi-fK-rjG"/>
-                                    <constraint firstAttribute="width" constant="112" id="ODs-FK-3uf"/>
-                                    <constraint firstAttribute="width" secondItem="Uik-wd-OQ2" secondAttribute="height" multiplier="1:1" id="oD8-fS-Gls"/>
-                                </constraints>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ofk-ha-E8F">
                                 <rect key="frame" x="138" y="229" width="96" height="30"/>
                                 <constraints>
@@ -45,6 +37,14 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Play Party Round" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-wd-OQ2">
+                                <rect key="frame" x="131" y="109" width="112" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="Cdi-fK-rjG"/>
+                                    <constraint firstAttribute="width" constant="112" id="ODs-FK-3uf"/>
+                                    <constraint firstAttribute="width" secondItem="Uik-wd-OQ2" secondAttribute="height" multiplier="1:1" id="oD8-fS-Gls"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>

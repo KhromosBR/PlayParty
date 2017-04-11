@@ -9,11 +9,20 @@
 import UIKit
 import FBSDKLoginKit
 import Firebase
+import GoogleSignIn
 
-class ViewController: UIViewController, FBSDKLoginButtonDelegate {
+class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        setupFacebookButtons()
+        setupGoogleButtons()
+        
+        
+    }
+    
+    fileprivate func setupFacebookButtons(){
         //Create login
         let loginButton = FBSDKLoginButton()
         
@@ -24,8 +33,19 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         loginButton.readPermissions = ["email", "public_profile"]
         
         self.showEmailAdress()
-        
     }
+    
+    fileprivate func setupGoogleButtons(){
+        //Add google sign in button
+        let googleButton = GIDSignInButton()
+        googleButton.frame = CGRect(x:16, y:350 + 66, width: view.frame.width - 32, height:50)
+        view.addSubview(googleButton)
+        
+        GIDSignIn.sharedInstance().uiDelegate = self
+
+    }
+    
+    
     //Delegate implementations
     func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
         print("DId log out of Facebook")
@@ -71,9 +91,5 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
-    
-    
 }
 
