@@ -68,7 +68,7 @@ let facebookButton : FBSDKLoginButton = FBSDKLoginButton()
     }
     
     
-    func loginButton (_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: NSError!) {
+    func loginButton (_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
         if error != nil{
             print(error)
         }
