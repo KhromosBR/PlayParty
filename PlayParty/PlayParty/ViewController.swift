@@ -13,6 +13,10 @@ import GoogleSignIn
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDelegate {
     
+let facebookButton : FBSDKLoginButton = FBSDKLoginButton()
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -24,37 +28,38 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
     
     fileprivate func setupFacebookButtons(){
         //Create login
-        let loginButton = FBSDKLoginButton()
+//        let facebookButton = FBSDKLoginButton()
         
-        view.addSubview(loginButton)
-        loginButton.frame = CGRect(x:16, y:350, width: view.frame.width - 32, height:50)
+        self.facebookButton.frame = CGRect(x:16, y:350, width: view.frame.width - 32, height:50)
+        self.facebookButton.center = view.center
         
-        loginButton.delegate = self
-        loginButton.readPermissions = ["email", "public_profile"]
+        //TODO Add contraits to FD button
+        
+        self.facebookButton.delegate = self
+        self.facebookButton.readPermissions = ["email", "public_profile", "user_friends"]
+        self.view!.addSubview(facebookButton)
+        
+        //get profile img
+        
         
         self.showEmailAdress()
     }
     
+    
+    
+    //GOOGLE
+    
     fileprivate func setupGoogleButtons(){
+        
         //Add google sign in button
         let googleButton = GIDSignInButton()
         googleButton.frame = CGRect(x:16, y:350 + 66, width: view.frame.width - 32, height:50)
+        //Buttom contraits
+        
         view.addSubview(googleButton)
         
         GIDSignIn.sharedInstance().uiDelegate = self
         
-        let customButtom = UIButton(type: .system)
-        //editing the button
-        customButtom.frame = CGRect(x:16, y:350 + 66 + 66, width: view.frame.width - 32, height:50)
-        customButtom.backgroundColor = .orange
-        customButtom.setTitle("Login with Google+", for: .normal)
-        customButtom.setTitleColor(.white, for: .normal)
-        customButtom.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
-        
-        
-        customButtom.addTarget(self, action: #selector(handleCustomGoogleSignin), for: .touchUpInside)
-        
-        view.addSubview(customButtom)
 
     }
     
@@ -63,21 +68,20 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
     }
     
     
-    //Delegate implementations
-    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
-        print("DId log out of Facebook")
-    }
-    
-    func loginButton(_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: Error!) {
+    func loginButton (_ loginButton: FBSDKLoginButton!, didCompleteWith result: FBSDKLoginManagerLoginResult!, error: NSError!) {
         if error != nil{
             print(error)
         }
         
         showEmailAdress()
+        
     }
     
-    func showEmailAdress()
-    {
+    func loginButtonDidLogOut(_ loginButton: FBSDKLoginButton!) {
+        print("DId log out of Facebook")
+    }
+    
+    func showEmailAdress(){
         let acessToken = FBSDKAccessToken.current()
         //Making secure
         guard let acessTokenString = acessToken?.tokenString else {return}
@@ -110,3 +114,17 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate, GIDSignInUIDel
     }
 }
 
+//google custom button
+
+//        let customButtom = UIButton(type: .custom)
+//
+//editing the button
+//        customButtom.frame = CGRect(x:16, y:350 + 66 + 66, width: view.frame.width - 32, height:50)
+//        customButtom.backgroundColor = .orange
+//        customButtom.setTitle("Login with Google+", for: .normal)
+//        customButtom.setTitleColor(.white, for: .normal)
+//        customButtom.titleLabel?.font = UIFont.boldSystemFont(ofSize: 16)
+//
+//        customButtom.addTarget(self, action: #selector(handleCustomGoogleSignin), for: .touchUpInside)
+//
+//        view.addSubview(customButtom)

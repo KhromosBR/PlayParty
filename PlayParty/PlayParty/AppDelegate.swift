@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     var window: UIWindow?
 
-
+    //Facebook and google signIn
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         FIRApp.configure()
@@ -30,6 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         return true
     }
+    
+    
+    
+    //Google signIN
     
     func sign(_ signIn: GIDSignIn!, didSignInFor user: GIDGoogleUser!, withError error: Error!) {
         if let err = error{
@@ -53,8 +57,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         })
     }
     
+//FACEBOOK UIAPPLICATION
     
     func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        
         let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[.sourceApplication] as! String!, annotation: options[UIApplicationOpenURLOptionsKey.annotation])
         
         //Makes when you login goes back from page to app
@@ -65,14 +71,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
         
         return handled
     }
-    
-    
-//    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
-//        
-//        let handled = FBSDKApplicationDelegate.sharedInstance().application(app, open: url, sourceApplication: options[.sourceApplication] as! String!, annotation: options[.annotation])
-//        
-//        return handled
-//    }
     
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -91,6 +89,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
 
     func applicationDidBecomeActive(_ application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        FBSDKAppEvents.activateApp()
     }
 
     func applicationWillTerminate(_ application: UIApplication) {

@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0B29203988F38D8121D0E720 /* Pods_PlayParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */; };
 		527878561E9B45FB00155005 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 527878551E9B45FB00155005 /* GoogleService-Info.plist */; };
+		527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878931E9EC93300155005 /* FBSDKLoginKit.framework */; };
+		527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878951E9EC94600155005 /* FBSDKCoreKit.framework */; };
 		52DB20801E9762B500218270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB207F1E9762B500218270 /* AppDelegate.swift */; };
 		52DB20821E9762B500218270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB20811E9762B500218270 /* ViewController.swift */; };
 		52DB20851E9762B500218270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB20831E9762B500218270 /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 		429CCEAF242BE91399BD08B0 /* Pods-PlayParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty.release.xcconfig"; sourceTree = "<group>"; };
 		527878541E9B2C2D00155005 /* PlayParty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayParty.entitlements; sourceTree = "<group>"; };
 		527878551E9B45FB00155005 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		527878931E9EC93300155005 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		527878951E9EC94600155005 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		52DB207C1E9762B500218270 /* PlayParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB207F1E9762B500218270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52DB20811E9762B500218270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */,
+				527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */,
 				0B29203988F38D8121D0E720 /* Pods_PlayParty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +52,8 @@
 		266BEC6D2ED64BA7C9587289 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				527878951E9EC94600155005 /* FBSDKCoreKit.framework */,
+				527878931E9EC93300155005 /* FBSDKLoginKit.framework */,
 				D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */,
 			);
 			name = Frameworks;
