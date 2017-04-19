@@ -8,13 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0B29203988F38D8121D0E720 /* Pods_PlayParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */; };
-<<<<<<< HEAD
-		520A9F271EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */; };
-		520A9F291EA7187A00079388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F281EA7187A00079388 /* GoogleService-Info.plist */; };
-=======
 		520A9F221EA6FDC300079388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F211EA6FDC300079388 /* GoogleService-Info.plist */; };
 		520A9F251EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */; };
->>>>>>> richardo
 		527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878931E9EC93300155005 /* FBSDKLoginKit.framework */; };
 		527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878951E9EC94600155005 /* FBSDKCoreKit.framework */; };
 		527878981E9F2B0400155005 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527878971E9F2B0400155005 /* ProfileViewController.swift */; };
@@ -28,13 +23,8 @@
 /* Begin PBXFileReference section */
 		2AC492D02A3307A9F6CE73A8 /* Pods-PlayParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty.debug.xcconfig"; sourceTree = "<group>"; };
 		429CCEAF242BE91399BD08B0 /* Pods-PlayParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty.release.xcconfig"; sourceTree = "<group>"; };
-<<<<<<< HEAD
-		520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json"; sourceTree = "<group>"; };
-		520A9F281EA7187A00079388 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-=======
 		520A9F211EA6FDC300079388 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json"; sourceTree = "<group>"; };
->>>>>>> richardo
 		527878541E9B2C2D00155005 /* PlayParty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayParty.entitlements; sourceTree = "<group>"; };
 		527878931E9EC93300155005 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		527878951E9EC94600155005 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
@@ -76,11 +66,7 @@
 		52DB20731E9762B500218270 = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-				520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */,
-=======
 				520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */,
->>>>>>> richardo
 				52DB207E1E9762B500218270 /* PlayParty */,
 				52DB207D1E9762B500218270 /* Products */,
 				F4D5B88C6C611691C7055AC6 /* Pods */,
@@ -108,7 +94,6 @@
 				52DB20881E9762B500218270 /* LaunchScreen.storyboard */,
 				520A9F211EA6FDC300079388 /* GoogleService-Info.plist */,
 				52DB208B1E9762B500218270 /* Info.plist */,
-				520A9F281EA7187A00079388 /* GoogleService-Info.plist */,
 			);
 			path = PlayParty;
 			sourceTree = "<group>";
@@ -193,13 +178,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				52DB208A1E9762B500218270 /* LaunchScreen.storyboard in Resources */,
-<<<<<<< HEAD
-				520A9F271EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */,
-				520A9F291EA7187A00079388 /* GoogleService-Info.plist in Resources */,
-=======
 				520A9F251EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */,
 				520A9F221EA6FDC300079388 /* GoogleService-Info.plist in Resources */,
->>>>>>> richardo
 				52DB20871E9762B500218270 /* Assets.xcassets in Resources */,
 				52DB20851E9762B500218270 /* Main.storyboard in Resources */,
 			);
@@ -263,11 +243,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-<<<<<<< HEAD
-			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=624c08e9113bfe04f6de59b320e26ed996e5d9a9\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"/Users/MacbookPro/Documents/Cornestone/Swift/FinalProject/PlayParty/play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json\"";
-=======
 			shellScript = "GOOGLE_APP_ID=1:1096453693402:ios:38b3afb66d296a65\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json\"";
->>>>>>> richardo
 		};
 		A717EBB692725A5C1BA07333 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
