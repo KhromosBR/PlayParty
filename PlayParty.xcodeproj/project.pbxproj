@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B29203988F38D8121D0E720 /* Pods_PlayParty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */; };
+<<<<<<< HEAD
+		520A9F271EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */; };
+		520A9F291EA7187A00079388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F281EA7187A00079388 /* GoogleService-Info.plist */; };
+=======
+		520A9F221EA6FDC300079388 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F211EA6FDC300079388 /* GoogleService-Info.plist */; };
+		520A9F251EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */; };
+>>>>>>> richardo
+		527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878931E9EC93300155005 /* FBSDKLoginKit.framework */; };
+		527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878951E9EC94600155005 /* FBSDKCoreKit.framework */; };
+		527878981E9F2B0400155005 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527878971E9F2B0400155005 /* ProfileViewController.swift */; };
+		52DB20801E9762B500218270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB207F1E9762B500218270 /* AppDelegate.swift */; };
+		52DB20821E9762B500218270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB20811E9762B500218270 /* ViewController.swift */; };
+		52DB20851E9762B500218270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB20831E9762B500218270 /* Main.storyboard */; };
+		52DB20871E9762B500218270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DB20861E9762B500218270 /* Assets.xcassets */; };
+		52DB208A1E9762B500218270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB20881E9762B500218270 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2AC492D02A3307A9F6CE73A8 /* Pods-PlayParty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayParty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty.debug.xcconfig"; sourceTree = "<group>"; };
+		429CCEAF242BE91399BD08B0 /* Pods-PlayParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty.release.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json"; sourceTree = "<group>"; };
+		520A9F281EA7187A00079388 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+=======
+		520A9F211EA6FDC300079388 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json"; sourceTree = "<group>"; };
+>>>>>>> richardo
+		527878541E9B2C2D00155005 /* PlayParty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayParty.entitlements; sourceTree = "<group>"; };
+		527878931E9EC93300155005 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		527878951E9EC94600155005 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		527878971E9F2B0400155005 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = ../ProfileViewController.swift; sourceTree = "<group>"; };
+		52DB207C1E9762B500218270 /* PlayParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DB207F1E9762B500218270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DB20811E9762B500218270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52DB20841E9762B500218270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52DB20861E9762B500218270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DB20891E9762B500218270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52DB208B1E9762B500218270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayParty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DB20791E9762B500218270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */,
+				527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */,
+				0B29203988F38D8121D0E720 /* Pods_PlayParty.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		266BEC6D2ED64BA7C9587289 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				527878951E9EC94600155005 /* FBSDKCoreKit.framework */,
+				527878931E9EC93300155005 /* FBSDKLoginKit.framework */,
+				D7ED432FFA70D8988A4C9141 /* Pods_PlayParty.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52DB20731E9762B500218270 = {
+			isa = PBXGroup;
+			children = (
+<<<<<<< HEAD
+				520A9F261EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */,
+=======
+				520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */,
+>>>>>>> richardo
+				52DB207E1E9762B500218270 /* PlayParty */,
+				52DB207D1E9762B500218270 /* Products */,
+				F4D5B88C6C611691C7055AC6 /* Pods */,
+				266BEC6D2ED64BA7C9587289 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		52DB207D1E9762B500218270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DB207C1E9762B500218270 /* PlayParty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DB207E1E9762B500218270 /* PlayParty */ = {
+			isa = PBXGroup;
+			children = (
+				527878541E9B2C2D00155005 /* PlayParty.entitlements */,
+				52DB207F1E9762B500218270 /* AppDelegate.swift */,
+				52DB20811E9762B500218270 /* ViewController.swift */,
+				527878971E9F2B0400155005 /* ProfileViewController.swift */,
+				52DB20831E9762B500218270 /* Main.storyboard */,
+				52DB20861E9762B500218270 /* Assets.xcassets */,
+				52DB20881E9762B500218270 /* LaunchScreen.storyboard */,
+				520A9F211EA6FDC300079388 /* GoogleService-Info.plist */,
+				52DB208B1E9762B500218270 /* Info.plist */,
+				520A9F281EA7187A00079388 /* GoogleService-Info.plist */,
+			);
+			path = PlayParty;
+			sourceTree = "<group>";
+		};
+		F4D5B88C6C611691C7055AC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AC492D02A3307A9F6CE73A8 /* Pods-PlayParty.debug.xcconfig */,
+				429CCEAF242BE91399BD08B0 /* Pods-PlayParty.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DB207B1E9762B500218270 /* PlayParty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DB208E1E9762B500218270 /* Build configuration list for PBXNativeTarget "PlayParty" */;
+			buildPhases = (
+				4923C74BBF184F5A23584574 /* [CP] Check Pods Manifest.lock */,
+				52DB20781E9762B500218270 /* Sources */,
+				52DB20791E9762B500218270 /* Frameworks */,
+				52DB207A1E9762B500218270 /* Resources */,
+				A717EBB692725A5C1BA07333 /* [CP] Embed Pods Frameworks */,
+				020BC3514201F0B82A40A3ED /* [CP] Copy Pods Resources */,
+				5278789F1EA0881500155005 /* ShellScript */,
+				520A9F231EA7049B00079388 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayParty;
+			productName = PlayParty;
+			productReference = 52DB207C1E9762B500218270 /* PlayParty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DB20741E9762B500218270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = KhromosTech;
+				TargetAttributes = {
+					52DB207B1E9762B500218270 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YGA3YD4ENU;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 52DB20771E9762B500218270 /* Build configuration list for PBXProject "PlayParty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DB20731E9762B500218270;
+			productRefGroup = 52DB207D1E9762B500218270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DB207B1E9762B500218270 /* PlayParty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DB207A1E9762B500218270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DB208A1E9762B500218270 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
+				520A9F271EA716C900079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */,
+				520A9F291EA7187A00079388 /* GoogleService-Info.plist in Resources */,
+=======
+				520A9F251EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */,
+				520A9F221EA6FDC300079388 /* GoogleService-Info.plist in Resources */,
+>>>>>>> richardo
+				52DB20871E9762B500218270 /* Assets.xcassets in Resources */,
+				52DB20851E9762B500218270 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		020BC3514201F0B82A40A3ED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4923C74BBF184F5A23584574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		520A9F231EA7049B00079388 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		5278789F1EA0881500155005 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+<<<<<<< HEAD
+			shellScript = "# Replace this with the GOOGLE_APP_ID from your GoogleService-Info.plist file\nGOOGLE_APP_ID=624c08e9113bfe04f6de59b320e26ed996e5d9a9\n\n# Replace the /Path/To/ServiceAccount.json with the path to the key you just downloaded\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"/Users/MacbookPro/Documents/Cornestone/Swift/FinalProject/PlayParty/play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json\"";
+=======
+			shellScript = "GOOGLE_APP_ID=1:1096453693402:ios:38b3afb66d296a65\n\"${PODS_ROOT}\"/FirebaseCrash/upload-sym \"play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json\"";
+>>>>>>> richardo
+		};
+		A717EBB692725A5C1BA07333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlayParty/Pods-PlayParty-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DB20781E9762B500218270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527878981E9F2B0400155005 /* ProfileViewController.swift in Sources */,
+				52DB20821E9762B500218270 /* ViewController.swift in Sources */,
+				52DB20801E9762B500218270 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52DB20831E9762B500218270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DB20841E9762B500218270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52DB20881E9762B500218270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DB20891E9762B500218270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DB208C1E9762B500218270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DB208D1E9762B500218270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DB208F1E9762B500218270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AC492D02A3307A9F6CE73A8 /* Pods-PlayParty.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlayParty/PlayParty.entitlements;
+				DEVELOPMENT_TEAM = YGA3YD4ENU;
+				INFOPLIST_FILE = PlayParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khromosStudies.PlayParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52DB20901E9762B500218270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429CCEAF242BE91399BD08B0 /* Pods-PlayParty.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlayParty/PlayParty.entitlements;
+				DEVELOPMENT_TEAM = YGA3YD4ENU;
+				INFOPLIST_FILE = PlayParty/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = khromosStudies.PlayParty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DB20771E9762B500218270 /* Build configuration list for PBXProject "PlayParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DB208C1E9762B500218270 /* Debug */,
+				52DB208D1E9762B500218270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DB208E1E9762B500218270 /* Build configuration list for PBXNativeTarget "PlayParty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DB208F1E9762B500218270 /* Debug */,
+				52DB20901E9762B500218270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DB20741E9762B500218270 /* Project object */;
+}
