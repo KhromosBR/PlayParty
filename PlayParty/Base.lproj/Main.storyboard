@@ -25,7 +25,7 @@
                                 <rect key="frame" x="-3" y="0.0" width="378" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Play Party FINAL" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-wd-OQ2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Play Party Round" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uik-wd-OQ2">
                                 <rect key="frame" x="141" y="94" width="90" height="84"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <userDefinedRuntimeAttributes>
@@ -45,7 +45,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Play Party FINAL" width="795" height="791"/>
+        <image name="Play Party Round" width="200" height="199"/>
         <image name="backgroundPlayParty1.0" width="800" height="1280"/>
     </resources>
 </document>

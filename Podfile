@@ -14,6 +14,7 @@ pod 'FBSDKLoginKit'
 pod 'Firebase/Core’
 pod ‘Firebase/Auth’
 pod ‘Firebase/Storage’
+pod 'Firebase/Database'
 pod 'Firebase/Crash'
 
 pod 'Alamofire', '~> 4.4'
