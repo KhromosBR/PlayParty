@@ -20,9 +20,9 @@ class ProfileViewController: UIViewController {
         FBSDKAccessToken.setCurrent(nil)
         
         let mainStoryboard : UIStoryboard = UIStoryboard(name: "loginView", bundle: nil)
-        let profileStoryboard : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
-        
-        self.profileStoryboard(ProfileViewController as! UIStoryboard, animated: true, completion: nil)
+//        let profileStoryboard : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
+//        
+//        self.profileStoryboard(ProfileViewController as! UIStoryboard, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
