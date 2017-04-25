@@ -20,12 +20,13 @@ let facebookButton = FBSDKLoginButton()
         
         
         let handle = FIRAuth.auth()?.addStateDidChangeListener() { (auth, user) in
-            
+            print("User loged on Facebook")
             if (FBSDKAccessToken.current() != nil) {
-                let mainStoryboard : UIStoryboard = UIStoryboard(name: "login", bundle: nil)
-                let loginViewController : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
-                
-                self.profileStoryboard(ProfileViewController, animated: true, completion: nil)
+//                let mainStoryboard : UIStoryboard = UIStoryboard(name: "login", bundle: nil)
+//                let loginViewController : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
+//                
+//                self.profileStoryboard(ProfileViewController, animated: true, completion: nil)
+
                 
                 
             }else{
