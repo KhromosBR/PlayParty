@@ -12,6 +12,7 @@
 		520A9F251EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json in Resources */ = {isa = PBXBuildFile; fileRef = 520A9F241EA705C300079388 /* play-party-e2cb7-firebase-crashreporting-mug4l-624c08e911.json */; };
 		527878941E9EC93300155005 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878931E9EC93300155005 /* FBSDKLoginKit.framework */; };
 		527878961E9EC94600155005 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527878951E9EC94600155005 /* FBSDKCoreKit.framework */; };
+		52C3DFF51EAACC57006D13F9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C3DFF41EAACC57006D13F9 /* ProfileViewController.swift */; };
 		52DB20801E9762B500218270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB207F1E9762B500218270 /* AppDelegate.swift */; };
 		52DB20821E9762B500218270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DB20811E9762B500218270 /* ViewController.swift */; };
 		52DB20851E9762B500218270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DB20831E9762B500218270 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		527878541E9B2C2D00155005 /* PlayParty.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayParty.entitlements; sourceTree = "<group>"; };
 		527878931E9EC93300155005 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		527878951E9EC94600155005 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.21.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		52C3DFF41EAACC57006D13F9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		52DB207C1E9762B500218270 /* PlayParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DB207F1E9762B500218270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52DB20811E9762B500218270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				527878541E9B2C2D00155005 /* PlayParty.entitlements */,
 				52DB207F1E9762B500218270 /* AppDelegate.swift */,
 				52DB20811E9762B500218270 /* ViewController.swift */,
+				52C3DFF41EAACC57006D13F9 /* ProfileViewController.swift */,
 				52DB20831E9762B500218270 /* Main.storyboard */,
 				52DB20861E9762B500218270 /* Assets.xcassets */,
 				52DB20881E9762B500218270 /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C3DFF51EAACC57006D13F9 /* ProfileViewController.swift in Sources */,
 				52DB20821E9762B500218270 /* ViewController.swift in Sources */,
 				52DB20801E9762B500218270 /* AppDelegate.swift in Sources */,
 			);

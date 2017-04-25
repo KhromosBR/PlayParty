@@ -2,7 +2,7 @@
 //  ProfileViewController.swift
 //  PlayParty
 //
-//  Created by Khromos on 2017-04-12.
+//  Created by Khromos on 2017-04-21.
 //  Copyright © 2017 KhromosTech. All rights reserved.
 //
 
@@ -11,7 +11,19 @@ import FBSDKCoreKit
 import FirebaseAuth
 
 class ProfileViewController: UIViewController {
-   
+
+    
+    @IBAction func didLogOut(_ sender: Any) {
+        //Sign the user out of firebase
+        try! FIRAuth.auth()!.signOut()
+        //sign the user out of facebook
+        FBSDKAccessToken.setCurrent(nil)
+        
+        let mainStoryboard : UIStoryboard = UIStoryboard(name: "loginView", bundle: nil)
+        let profileStoryboard : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
+        
+        self.profileStoryboard(ProfileViewController as! UIStoryboard, animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

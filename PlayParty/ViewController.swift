@@ -18,14 +18,19 @@ let facebookButton = FBSDKLoginButton()
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         let handle = FIRAuth.auth()?.addStateDidChangeListener() { (auth, user) in
             
-            
-            if user != nil {
-            
-            
+            if (FBSDKAccessToken.current() != nil) {
+                let mainStoryboard : UIStoryboard = UIStoryboard(name: "login", bundle: nil)
+                let loginViewController : UIStoryboard = mainStoryboard.instantiateViewController(withIdentifier: "profileView")
+                
+                self.profileStoryboard(ProfileViewController, animated: true, completion: nil)
+                
+                
             }else{
                 self.setupFacebookButtons()
+        
             }
         }
         
